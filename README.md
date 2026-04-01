@@ -44,3 +44,15 @@ This project includes the following components:
 - Object detection on classroom objects
 - Estimated object distance display
 - Output visualization and result saving
+---
+## How to Run the Code
+
+Run the stereo vision pipeline using:
+
+```bash
+python stereo_uncalibrated.py \
+  --left left.png \
+  --right right.png \
+  --baseline_cm 10 \
+  --ground_truth_cm 350 \
+  --output_dir results
