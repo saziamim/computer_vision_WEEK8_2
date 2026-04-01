@@ -1,0 +1,36 @@
+Uncalibrated Stereo Distance Estimation Results
+============================================================
+K =
+[[691.2   0.  384. ]
+ [  0.  691.2 512. ]
+ [  0.    0.    1. ]]
+F =
+[[-0.       -0.000017  0.005955]
+ [ 0.00002   0.        0.017171]
+ [-0.006876 -0.019602  1.      ]]
+E =
+[[-0.005522 -0.414595 -0.1045  ]
+ [ 0.48051   0.008958  0.870311]
+ [ 0.112939 -0.903322 -0.001869]]
+R =
+[[ 0.997159  0.005651 -0.075113]
+ [-0.006185  0.999957 -0.006878]
+ [ 0.075071  0.007323  0.997151]]
+t (up to scale) =
+[[-0.903969]
+ [-0.107653]
+ [ 0.413824]]
+Image size: 768 x 1024
+Feature method: sift
+Ratio threshold: 0.6
+RANSAC threshold: 0.5
+Total good matches: 494
+RANSAC inliers: 311
+Baseline (cm): 10.000
+Approx fx (px): 691.200
+Selected point: (438, 518)
+Median disparity (px): 1.000
+Estimated distance (cm): 6912.000
+Ground truth distance (cm): 350.000
+Absolute error (cm): 6562.000
+Relative error (%): 1874.857
